@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
             override fun onFailure(call: Call<MovieResponse>, t: Throwable) {
 
             }
+            //HEJ
 
             override fun onResponse(call: Call<MovieResponse>, response: Response<MovieResponse>) {
                 return callback(response.body()!!.movies)
